@@ -1,0 +1,129 @@
+---------------------------------------------------------------
+[ 2018-09-19T09:33:20+08:00 ] ::1 GET modi.item.com/
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000900s ] mysql:host=127.0.0.1;port=3306;dbname=modi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.016492s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'index/index/index' LIMIT 1 [ RunTime:0.002212s ]
+---------------------------------------------------------------
+[ 2018-09-19T09:33:21+08:00 ] ::1 GET modi.item.com/admin/login.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000669s ] mysql:host=127.0.0.1;port=3306;dbname=modi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003948s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.000778s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.003681s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000778s ]
+---------------------------------------------------------------
+[ 2018-09-19T09:33:22+08:00 ] ::1 POST modi.item.com/admin/login.html?spm=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001502s ] mysql:host=127.0.0.1;port=3306;dbname=modi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.004508s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/login/index' LIMIT 1 [ RunTime:0.000990s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.003758s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `username` = 'admin'  AND `is_deleted` = 0 LIMIT 1 [ RunTime:0.001230s ]
+[ sql ] [ SQL ] UPDATE `system_user`  SET `login_at` = now() , `login_num` = login_num+1  WHERE  `id` = 10000 [ RunTime:0.002220s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.000818s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.003131s ]
+[ sql ] [ SQL ] SELECT `id` FROM `system_auth` WHERE  `id` IN (2,4)  AND `status` = 1 [ RunTime:0.000864s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_log` [ RunTime:0.004092s ]
+[ sql ] [ SQL ] INSERT INTO `system_log` (`ip` , `node` , `action` , `content` , `username`) VALUES ('::1' , 'admin/login/index' , '系统管理' , '用户登录系统成功' , 'admin') [ RunTime:0.000948s ]
+---------------------------------------------------------------
+[ 2018-09-19T09:33:23+08:00 ] ::1 GET modi.item.com/admin.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000597s ] mysql:host=127.0.0.1;port=3306;dbname=modi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003955s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/index' LIMIT 1 [ RunTime:0.001189s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_user` [ RunTime:0.003396s ]
+[ sql ] [ SQL ] SELECT * FROM `system_user` WHERE  `id` = 10000 LIMIT 1 [ RunTime:0.000738s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_auth` [ RunTime:0.002663s ]
+[ sql ] [ SQL ] SELECT `id` FROM `system_auth` WHERE  `id` IN (2,4)  AND `status` = 1 [ RunTime:0.000585s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.002807s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` WHERE  `status` = 1 ORDER BY `sort` ASC,`id` ASC [ RunTime:0.001589s ]
+[ sql ] [ SQL ] SELECT `node`,`is_menu`,`is_auth`,`is_login`,`title` FROM `system_node` [ RunTime:0.001269s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.005405s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000810s ]
+---------------------------------------------------------------
+[ 2018-09-19T09:33:23+08:00 ] ::1 GET modi.item.com/admin/index/main.html?spm=m-7
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000786s ] mysql:host=127.0.0.1;port=3306;dbname=modi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.002740s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/index/main' LIMIT 1 [ RunTime:0.000787s ]
+[ sql ] [ SQL ] select version() as ver [ RunTime:0.000450s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.003168s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000517s ]
+---------------------------------------------------------------
+[ 2018-09-19T09:33:27+08:00 ] ::1 GET modi.item.com/store/goods/index.html?spm=m-32-33-34
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000690s ] mysql:host=127.0.0.1;port=3306;dbname=modi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003702s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'store/goods/index' LIMIT 1 [ RunTime:0.000671s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods` [ RunTime:0.002953s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `store_goods` WHERE  `is_deleted` = 0 LIMIT 1 [ RunTime:0.000634s ]
+[ sql ] [ SQL ] SELECT * FROM `store_goods` WHERE  `is_deleted` = 0 ORDER BY `status` DESC,`sort` ASC,`id` DESC LIMIT 0,20 [ RunTime:0.000681s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_cate` [ RunTime:0.002944s ]
+[ sql ] [ SQL ] SELECT `id`,`pid`,`cate_title`,`cate_desc` FROM `store_goods_cate` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000649s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `store_goods_brand` [ RunTime:0.002375s ]
+[ sql ] [ SQL ] SELECT `id`,`brand_logo`,`brand_cover`,`brand_title`,`brand_desc`,`brand_detail` FROM `store_goods_brand` WHERE  `status` = 1  AND `is_deleted` = 0 ORDER BY `sort` ASC,`id` DESC [ RunTime:0.000541s ]
+---------------------------------------------------------------
+[ 2018-09-19T09:33:29+08:00 ] ::1 GET modi.item.com/wechat/config/index.html?spm=m-17-18-19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000525s ] mysql:host=127.0.0.1;port=3306;dbname=modi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.002467s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'wechat/config/index' LIMIT 1 [ RunTime:0.000697s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.003163s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000442s ]
+---------------------------------------------------------------
+[ 2018-09-19T09:33:30+08:00 ] ::1 GET modi.item.com/wechat/api.tools/oauth_qrc.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000455s ] mysql:host=127.0.0.1;port=3306;dbname=modi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.004428s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'wechat/api.tools/oauth_qrc' LIMIT 1 [ RunTime:0.000944s ]
+---------------------------------------------------------------
+[ 2018-09-19T09:33:30+08:00 ] ::1 GET modi.item.com/wechat/api.tools/jssdk_qrc.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000898s ] mysql:host=127.0.0.1;port=3306;dbname=modi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.004776s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'wechat/api.tools/jssdk_qrc' LIMIT 1 [ RunTime:0.000849s ]
+---------------------------------------------------------------
+[ 2018-09-19T09:33:30+08:00 ] ::1 GET modi.item.com/wx-demo-jsapiqrc.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000660s ] mysql:host=127.0.0.1;port=3306;dbname=modi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.004394s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = '' LIMIT 1 [ RunTime:0.000770s ]
+---------------------------------------------------------------
+[ 2018-09-19T09:33:30+08:00 ] ::1 GET modi.item.com/wx-demo-scanoneqrc.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000793s ] mysql:host=127.0.0.1;port=3306;dbname=modi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.004300s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = '' LIMIT 1 [ RunTime:0.001454s ]
+---------------------------------------------------------------
+[ 2018-09-19T09:33:30+08:00 ] ::1 GET modi.item.com/wx-demo-scanqrc.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000937s ] mysql:host=127.0.0.1;port=3306;dbname=modi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.004483s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = '' LIMIT 1 [ RunTime:0.000689s ]
+---------------------------------------------------------------
+[ 2018-09-19T09:33:31+08:00 ] ::1 GET modi.item.com/admin/menu/index.html?spm=m-1-10-2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000607s ] mysql:host=127.0.0.1;port=3306;dbname=modi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003716s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'admin/menu/index' LIMIT 1 [ RunTime:0.001035s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_menu` [ RunTime:0.002496s ]
+[ sql ] [ SQL ] SELECT * FROM `system_menu` ORDER BY `sort` ASC,`id` ASC [ RunTime:0.001066s ]
+---------------------------------------------------------------
+[ 2018-09-19T09:33:32+08:00 ] ::1 GET modi.item.com/wechat/config/index.html?spm=m-17-18-19
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000607s ] mysql:host=127.0.0.1;port=3306;dbname=modi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003994s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_config` [ RunTime:0.002875s ]
+[ sql ] [ SQL ] SELECT `name`,`value` FROM `system_config` [ RunTime:0.000466s ]
+---------------------------------------------------------------
+[ 2018-09-19T09:33:32+08:00 ] ::1 GET modi.item.com/wx-demo-jsapiqrc.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000509s ] mysql:host=127.0.0.1;port=3306;dbname=modi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.004327s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = '' LIMIT 1 [ RunTime:0.000674s ]
+---------------------------------------------------------------
+[ 2018-09-19T09:33:32+08:00 ] ::1 GET modi.item.com/wechat/api.tools/oauth_qrc.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000521s ] mysql:host=127.0.0.1;port=3306;dbname=modi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003700s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'wechat/api.tools/oauth_qrc' LIMIT 1 [ RunTime:0.000527s ]
+---------------------------------------------------------------
+[ 2018-09-19T09:33:32+08:00 ] ::1 GET modi.item.com/wechat/api.tools/jssdk_qrc.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000392s ] mysql:host=127.0.0.1;port=3306;dbname=modi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003473s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = 'wechat/api.tools/jssdk_qrc' LIMIT 1 [ RunTime:0.000485s ]
+---------------------------------------------------------------
+[ 2018-09-19T09:33:32+08:00 ] ::1 GET modi.item.com/wx-demo-scanoneqrc.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000761s ] mysql:host=127.0.0.1;port=3306;dbname=modi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.003543s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = '' LIMIT 1 [ RunTime:0.000595s ]
+---------------------------------------------------------------
+[ 2018-09-19T09:33:33+08:00 ] ::1 GET modi.item.com/wx-demo-scanqrc.html
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000416s ] mysql:host=127.0.0.1;port=3306;dbname=modi;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `system_node` [ RunTime:0.004581s ]
+[ sql ] [ SQL ] SELECT * FROM `system_node` WHERE  `node` = '' LIMIT 1 [ RunTime:0.000581s ]

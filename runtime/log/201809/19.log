@@ -1,0 +1,532 @@
+---------------------------------------------------------------
+[ 2018-09-19T09:30:12+08:00 ] ::1 GET modi.item.com/
+[运行时间：0.077608s] [吞吐率：12.89req/s] [内存消耗：3,886.41kb] [文件加载：72]
+[ info ] [ LANG ] /Users/zhangxupeng/item/Think.Admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'modi.item.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'socketlog' => 'SocketLog(tabid=936&client_id=)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2018-09-19T09:30:13+08:00 ] ::1 GET modi.item.com/favicon.ico
+[运行时间：0.034995s] [吞吐率：28.58req/s] [内存消耗：2,093.04kb] [文件加载：58]
+[ info ] [ LANG ] /Users/zhangxupeng/item/Think.Admin/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[ 2018-09-19T09:33:20+08:00 ] ::1 GET modi.item.com/
+[运行时间：0.092481s] [吞吐率：10.81req/s] [内存消耗：4,049.50kb] [文件加载：76]
+[ info ] [ LANG ] /Users/zhangxupeng/item/Think.Admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'modi.item.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'socketlog' => 'SocketLog(tabid=936&client_id=)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2018-09-19T09:33:21+08:00 ] ::1 GET modi.item.com/admin/login.html
+[运行时间：0.087873s] [吞吐率：11.38req/s] [内存消耗：4,234.78kb] [文件加载：78]
+[ info ] [ LANG ] /Users/zhangxupeng/item/Think.Admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'modi.item.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'socketlog' => 'SocketLog(tabid=936&client_id=)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/zhangxupeng/item/Think.Admin/application/admin/view/login/index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+) ]
+---------------------------------------------------------------
+[ 2018-09-19T09:33:22+08:00 ] ::1 POST modi.item.com/admin/login.html?spm=
+[运行时间：0.113114s] [吞吐率：8.84req/s] [内存消耗：4,164.04kb] [文件加载：81]
+[ info ] [ LANG ] /Users/zhangxupeng/item/Think.Admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'modi.item.com',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => '*/*',
+  'origin' => 'http://modi.item.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://modi.item.com/admin/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 's486e3225=45a28707feb32849b8b1b3481439395d',
+  'socketlog' => 'SocketLog(tabid=936&client_id=)',
+)
+[ info ] [ PARAM ] array (
+  'spm' => '',
+  'username' => 'admin',
+  'password' => 'admin',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2018-09-19T09:33:23+08:00 ] ::1 GET modi.item.com/admin.html
+[运行时间：0.138888s] [吞吐率：7.20req/s] [内存消耗：5,333.46kb] [文件加载：105]
+[ info ] [ LANG ] /Users/zhangxupeng/item/Think.Admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'modi.item.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://modi.item.com/admin/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 's486e3225=45a28707feb32849b8b1b3481439395d',
+  'socketlog' => 'SocketLog(tabid=936&client_id=)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/zhangxupeng/item/Think.Admin/application/admin/view/index/index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'menus',
+) ]
+---------------------------------------------------------------
+[ 2018-09-19T09:33:23+08:00 ] ::1 GET modi.item.com/admin/index/main.html?spm=m-7
+[运行时间：0.093777s] [吞吐率：10.66req/s] [内存消耗：4,248.72kb] [文件加载：78]
+[ info ] [ LANG ] /Users/zhangxupeng/item/Think.Admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'modi.item.com',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://modi.item.com/admin.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 's486e3225=45a28707feb32849b8b1b3481439395d',
+  'socketlog' => 'SocketLog(tabid=936&client_id=)',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-7',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/zhangxupeng/item/Think.Admin/application/admin/view/index/main.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'think_ver',
+  3 => 'mysql_ver',
+) ]
+---------------------------------------------------------------
+[ 2018-09-19T09:33:27+08:00 ] ::1 GET modi.item.com/store/goods/index.html?spm=m-32-33-34
+[运行时间：0.106074s] [吞吐率：9.43req/s] [内存消耗：4,709.33kb] [文件加载：87]
+[ info ] [ LANG ] /Users/zhangxupeng/item/Think.Admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'modi.item.com',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://modi.item.com/admin.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 's486e3225=45a28707feb32849b8b1b3481439395d',
+  'socketlog' => 'SocketLog(tabid=936&client_id=)',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-32-33-34',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/zhangxupeng/item/Think.Admin/application/store/view/goods/index.html [ array (
+  0 => 'classuri',
+  1 => 'brands',
+  2 => 'cates',
+  3 => 'title',
+  4 => 'page',
+  5 => 'list',
+  6 => 'total',
+) ]
+---------------------------------------------------------------
+[ 2018-09-19T09:33:29+08:00 ] ::1 GET modi.item.com/wechat/config/index.html?spm=m-17-18-19
+[运行时间：1.394794s] [吞吐率：0.72req/s] [内存消耗：4,515.85kb] [文件加载：84]
+[ info ] [ LANG ] /Users/zhangxupeng/item/Think.Admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'modi.item.com',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://modi.item.com/admin.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 's486e3225=45a28707feb32849b8b1b3481439395d; page-rows=20',
+  'socketlog' => 'SocketLog(tabid=936&client_id=)',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-17-18-19',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/zhangxupeng/item/Think.Admin/application/wechat/view/config/index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'appid',
+  3 => 'appkey',
+  4 => 'authurl',
+  5 => 'wechat',
+) ]
+---------------------------------------------------------------
+[ 2018-09-19T09:33:30+08:00 ] ::1 GET modi.item.com/wechat/api.tools/oauth_qrc.html
+[运行时间：0.127406s] [吞吐率：7.85req/s] [内存消耗：4,338.43kb] [文件加载：78]
+[ info ] [ LANG ] /Users/zhangxupeng/item/Think.Admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'modi.item.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://modi.item.com/admin.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 's486e3225=45a28707feb32849b8b1b3481439395d; page-rows=20',
+  'socketlog' => 'SocketLog(tabid=936&client_id=)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2018-09-19T09:33:30+08:00 ] ::1 GET modi.item.com/wechat/api.tools/jssdk_qrc.html
+[运行时间：0.123922s] [吞吐率：8.07req/s] [内存消耗：4,338.42kb] [文件加载：78]
+[ info ] [ LANG ] /Users/zhangxupeng/item/Think.Admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'modi.item.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://modi.item.com/admin.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 's486e3225=45a28707feb32849b8b1b3481439395d; page-rows=20',
+  'socketlog' => 'SocketLog(tabid=936&client_id=)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2018-09-19T09:33:30+08:00 ] ::1 GET modi.item.com/wx-demo-jsapiqrc.html
+[运行时间：0.128935s] [吞吐率：7.76req/s] [内存消耗：4,119.45kb] [文件加载：74]
+[ info ] [ LANG ] /Users/zhangxupeng/item/Think.Admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'wx<_?>',
+  'route' => 
+  Closure::__set_state(array(
+  )),
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'modi.item.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://modi.item.com/admin.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 's486e3225=45a28707feb32849b8b1b3481439395d; page-rows=20',
+  'socketlog' => 'SocketLog(tabid=936&client_id=)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2018-09-19T09:33:30+08:00 ] ::1 GET modi.item.com/wx-demo-scanoneqrc.html
+[运行时间：0.131536s] [吞吐率：7.60req/s] [内存消耗：4,192.21kb] [文件加载：77]
+[ info ] [ LANG ] /Users/zhangxupeng/item/Think.Admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'wx<_?>',
+  'route' => 
+  Closure::__set_state(array(
+  )),
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'modi.item.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://modi.item.com/admin.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 's486e3225=45a28707feb32849b8b1b3481439395d; page-rows=20',
+  'socketlog' => 'SocketLog(tabid=936&client_id=)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2018-09-19T09:33:30+08:00 ] ::1 GET modi.item.com/wx-demo-scanqrc.html
+[运行时间：0.350142s] [吞吐率：2.86req/s] [内存消耗：4,089.65kb] [文件加载：80]
+[ info ] [ LANG ] /Users/zhangxupeng/item/Think.Admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'wx<_?>',
+  'route' => 
+  Closure::__set_state(array(
+  )),
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'modi.item.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://modi.item.com/admin.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 's486e3225=45a28707feb32849b8b1b3481439395d; page-rows=20',
+  'socketlog' => 'SocketLog(tabid=936&client_id=)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2018-09-19T09:33:31+08:00 ] ::1 GET modi.item.com/admin/menu/index.html?spm=m-1-10-2
+[运行时间：0.111179s] [吞吐率：8.99req/s] [内存消耗：4,644.58kb] [文件加载：82]
+[ info ] [ LANG ] /Users/zhangxupeng/item/Think.Admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'modi.item.com',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://modi.item.com/admin.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 's486e3225=45a28707feb32849b8b1b3481439395d; page-rows=20',
+  'socketlog' => 'SocketLog(tabid=936&client_id=)',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-1-10-2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/zhangxupeng/item/Think.Admin/application/admin/view/menu/index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'list',
+) ]
+---------------------------------------------------------------
+[ 2018-09-19T09:33:32+08:00 ] ::1 GET modi.item.com/wechat/config/index.html?spm=m-17-18-19
+[运行时间：0.277518s] [吞吐率：3.60req/s] [内存消耗：4,286.67kb] [文件加载：82]
+[ info ] [ LANG ] /Users/zhangxupeng/item/Think.Admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'modi.item.com',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://modi.item.com/admin.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 's486e3225=45a28707feb32849b8b1b3481439395d; page-rows=20',
+  'socketlog' => 'SocketLog(tabid=936&client_id=)',
+)
+[ info ] [ PARAM ] array (
+  'spm' => 'm-17-18-19',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/zhangxupeng/item/Think.Admin/application/wechat/view/config/index.html [ array (
+  0 => 'classuri',
+  1 => 'title',
+  2 => 'appid',
+  3 => 'appkey',
+  4 => 'authurl',
+  5 => 'wechat',
+) ]
+---------------------------------------------------------------
+[ 2018-09-19T09:33:32+08:00 ] ::1 GET modi.item.com/wx-demo-jsapiqrc.html
+[运行时间：0.082870s] [吞吐率：12.07req/s] [内存消耗：4,119.45kb] [文件加载：74]
+[ info ] [ LANG ] /Users/zhangxupeng/item/Think.Admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'wx<_?>',
+  'route' => 
+  Closure::__set_state(array(
+  )),
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'modi.item.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://modi.item.com/admin.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 's486e3225=45a28707feb32849b8b1b3481439395d; page-rows=20',
+  'socketlog' => 'SocketLog(tabid=936&client_id=)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2018-09-19T09:33:32+08:00 ] ::1 GET modi.item.com/wechat/api.tools/oauth_qrc.html
+[运行时间：0.087621s] [吞吐率：11.41req/s] [内存消耗：4,338.43kb] [文件加载：78]
+[ info ] [ LANG ] /Users/zhangxupeng/item/Think.Admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'modi.item.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://modi.item.com/admin.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 's486e3225=45a28707feb32849b8b1b3481439395d; page-rows=20',
+  'socketlog' => 'SocketLog(tabid=936&client_id=)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2018-09-19T09:33:32+08:00 ] ::1 GET modi.item.com/wechat/api.tools/jssdk_qrc.html
+[运行时间：0.088711s] [吞吐率：11.27req/s] [内存消耗：4,338.41kb] [文件加载：78]
+[ info ] [ LANG ] /Users/zhangxupeng/item/Think.Admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'modi.item.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://modi.item.com/admin.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 's486e3225=45a28707feb32849b8b1b3481439395d; page-rows=20',
+  'socketlog' => 'SocketLog(tabid=936&client_id=)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2018-09-19T09:33:32+08:00 ] ::1 GET modi.item.com/wx-demo-scanoneqrc.html
+[运行时间：0.099769s] [吞吐率：10.02req/s] [内存消耗：4,192.20kb] [文件加载：77]
+[ info ] [ LANG ] /Users/zhangxupeng/item/Think.Admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'wx<_?>',
+  'route' => 
+  Closure::__set_state(array(
+  )),
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'modi.item.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://modi.item.com/admin.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 's486e3225=45a28707feb32849b8b1b3481439395d; page-rows=20',
+  'socketlog' => 'SocketLog(tabid=936&client_id=)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[ 2018-09-19T09:33:33+08:00 ] ::1 GET modi.item.com/wx-demo-scanqrc.html
+[运行时间：0.289609s] [吞吐率：3.45req/s] [内存消耗：4,089.83kb] [文件加载：80]
+[ info ] [ LANG ] /Users/zhangxupeng/item/Think.Admin/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'wx<_?>',
+  'route' => 
+  Closure::__set_state(array(
+  )),
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'modi.item.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://modi.item.com/admin.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'cookie' => 's486e3225=45a28707feb32849b8b1b3481439395d; page-rows=20',
+  'socketlog' => 'SocketLog(tabid=936&client_id=)',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql

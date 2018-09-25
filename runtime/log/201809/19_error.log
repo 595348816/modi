@@ -1,0 +1,9 @@
+---------------------------------------------------------------
+[ 2018-09-19T09:30:12+08:00 ] ::1 GET modi.item.com/
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'admin_v3'@'localhost' (using password: YES)[/Users/zhangxupeng/item/Think.Admin/thinkphp/library/think/db/Connection.php:525]
+---------------------------------------------------------------
+[ 2018-09-19T09:33:30+08:00 ] ::1 GET modi.item.com/wx-demo-scanqrc.html
+[ error ] [0]invalid spbill_create_ip[/Users/zhangxupeng/item/Think.Admin/vendor/zoujingli/wechat-developer/WeChat/Contracts/BasicPay.php:165]
+---------------------------------------------------------------
+[ 2018-09-19T09:33:33+08:00 ] ::1 GET modi.item.com/wx-demo-scanqrc.html
+[ error ] [0]invalid spbill_create_ip[/Users/zhangxupeng/item/Think.Admin/vendor/zoujingli/wechat-developer/WeChat/Contracts/BasicPay.php:165]
